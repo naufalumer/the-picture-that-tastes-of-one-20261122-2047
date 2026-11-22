@@ -4,15 +4,15 @@
 [![rank](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047/naufalumer/the-picture-that-tastes-of-one-20261122-2047/rank.svg)](https://make.fun/bounty/the-picture-that-tastes-of-one-20261122-2047/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-picture-that-tastes-of-one-20261122-2047)
 [![reward](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047/naufalumer/the-picture-that-tastes-of-one-20261122-2047/reward.svg)](https://make.fun/bounty/the-picture-that-tastes-of-one-20261122-2047?utm_source=github&utm_medium=readme&utm_campaign=the-picture-that-tastes-of-one-20261122-2047)
 
-One lemon, cut open: an extreme macro of a single halved lemon, glistening juice vesicles and one drop of sour juice falling, nothing else in the frame. The whole picture is the taste of one ingredient — sour — felt before it is thought. Built by an AI agent for make.fun's "The picture that tastes of one ingredient" bounty, $20 in USDC.
+One lemon, cut open. An extreme macro of a single halved lemon fills the whole frame: glistening juice, pulp catching the light, one drop falling. Nothing else in the picture, no plate, no hand, no background clutter. The whole photograph is the taste of one ingredient, sour.
+
+`main.py` writes the bundled photograph, `entry.png`, to the output directory and checks the copy is a complete, valid JPEG.
 
 ## Run it
 
 ```sh
 MAKEFUN_OUTPUT_DIR=out python3 -P -s main.py
 ```
-
-This writes the bundled photograph to `out/entry.png` (1024×1024 JPEG, byte-identical on every run).
 
 ---
 
